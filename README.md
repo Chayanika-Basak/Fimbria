@@ -179,7 +179,8 @@ https://github.com/Chayanika-Basak/Fimbria/assets/84329719/f5a4e361-3e66-45ca-aa
 </ol>
 
 ## Resources
-<li>Presentation: </li>
+<li>Presentation: https://www.canva.com/design/DAGBGEshE0c/uCZBu-b14YUHMKd0m3QPGA/edit?utm_content=DAGBGEshE0c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton</li>
+<li>Video: https://www.canva.com/design/DAGBFzrH1SE/3qhLSpa0YdSN2kJfYKx1Pw/edit?utm_content=DAGBFzrH1SE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton</li>
 
 ## API Used
 <li>Gemini API: https://www.gemini.com/india </li>
