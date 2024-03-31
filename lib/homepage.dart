@@ -1,12 +1,14 @@
 import 'dart:core';
+import 'package:fimbria/feeding_tracker/feeding_main.dart';
+import 'package:fimbria/gynae_near_me/gynae_main.dart';
 import 'package:flutter/cupertino.dart';
-// import 'package:camera/camera.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
 import 'components/card_items.dart';
 import 'components/feature_cards.dart';
 import 'components/primary_appbar.dart';
+import 'connect/connect.dart';
 import 'postpartum_depression/chatbot.dart';
 import 'postpartum_depression/main.dart';
 
@@ -38,13 +40,13 @@ class _HomeState extends State<Home> {
       "image": "images/breastfeeding.png",
       "text": "Feeding Tracker",
       "name": '/feed',
-      "page": PPDMain()
+      "page": Feeding_Main()
     },
     {
       "image": "images/doctor.png",
       "text": "Track Appointment",
       "name": '/doctor',
-      "page": PPDMain()
+      "page": GynaeMain()
     },
     {
       "image": "images/diaper.png",
@@ -62,7 +64,7 @@ class _HomeState extends State<Home> {
       "image": "images/holdBaby.png",
       "text": "Lets Relate",
       "name": '/hold',
-      "page": PPDMain()
+      "page": Connect(collection: 'users',)
     },
   ];
   @override

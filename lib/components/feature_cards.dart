@@ -1,5 +1,8 @@
+import 'package:fimbria/feeding_tracker/feeding_main.dart';
+import 'package:fimbria/gynae_near_me/gynae_main.dart';
 import 'package:flutter/material.dart';
 
+import '../connect/connect.dart';
 import '../postpartum_depression/main.dart';
 
 class CardItem {
@@ -53,7 +56,7 @@ List<CardItem> feature_items = [
       ],
       summary: "Track how much and when your baby fed and from which side.",
       name: "/feed",
-      page: PPDMain()),
+      page: Feeding_Main()),
   CardItem(
       assetImage: 'images/doctor.png',
       title: "Keep Track of Appointments",
@@ -90,7 +93,7 @@ List<CardItem> feature_items = [
       ],
       summary: "Quickly find gynecologists nearby your area",
       name: "/gynae",
-      page: PPDMain(),
+      page: GynaeMain(),
       ),
       CardItem(
       assetImage: 'images/holdBaby.png',
@@ -103,7 +106,7 @@ List<CardItem> feature_items = [
       ],
       summary: "Discuss about your journey of motherhood and connect with fellow mothers.",
       name: "/relate",
-      page: PPDMain())
+      page: Connect(collection: 'users',))
 ];
 
 Widget buildFeatureCard(
