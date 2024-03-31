@@ -9,6 +9,7 @@ import 'components/card_items.dart';
 import 'components/feature_cards.dart';
 import 'components/primary_appbar.dart';
 import 'connect/connect.dart';
+import 'pose_estimation/pose_main.dart';
 import 'postpartum_depression/chatbot.dart';
 import 'postpartum_depression/main.dart';
 
@@ -34,7 +35,7 @@ class _HomeState extends State<Home> {
       "image": "images/excercise.png",
       "text": "Excercise",
       "name": '/pose_est',
-      "page": PPDMain()
+      "page": Pose_Main()
     },
     {
       "image": "images/breastfeeding.png",

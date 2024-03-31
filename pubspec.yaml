@@ -48,6 +48,9 @@ dependencies:
   syncfusion_flutter_pdfviewer: ^24.2.7
   google_gemini: ^0.1.2
   syncfusion_flutter_charts: ^24.1.47+2
+  camera: ^0.10.5+9
+  google_ml_kit: ^0.16.3
+  path_provider: ^2.1.2
 
 dev_dependencies:
   flutter_test:
