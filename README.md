@@ -11,8 +11,8 @@ New mothers often worry about their own physical recuperation, which includes ma
   <li><b>Get to know more about the idea :</b>
     <br>
     <ol>
-      <li><b>Video: </b> https://www.canva.com/design/DAGBFzrH1SE/3qhLSpa0YdSN2kJfYKx1Pw/editutm_content=DAGBFzrH1SE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton </li>
-      <li><b>PPT: </b>https://www.canva.com/design/DAGBGEshE0c/uCZBu-b14YUHMKd0m3QPGA/editutm_content=DAGBGEshE0c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+      <li><b>Video: </b> https://www.canva.com/design/DAGBFzrH1SE/3qhLSpa0YdSN2kJfYKx1Pw/edit?utm_content=DAGBFzrH1SE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton</li>
+      <li><b>PPT: </b>https://www.canva.com/design/DAGBGEshE0c/uCZBu-b14YUHMKd0m3QPGA/edit?utm_content=DAGBGEshE0c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
     </ol>
   </li>
 
