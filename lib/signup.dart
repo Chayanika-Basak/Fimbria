@@ -1,5 +1,6 @@
 import 'dart:core';
 import 'package:flutter/material.dart';
+import 'homepage.dart';
 import 'services/authFunctions.dart';
 
 class SignupPage extends StatefulWidget {
@@ -141,8 +142,12 @@ class _SignupPageState extends State<SignupPage> {
                                             await AuthServices.signinUser(
                                                 email, password, context);
                                         if (loggedin)
-                                          Navigator.pushNamed(
-                                              context, 'homepage');
+                                          Navigator.of(context).push(
+                                            MaterialPageRoute(
+                                                settings: RouteSettings(
+                                                    name: "/homepage"),
+                                                builder: (context) => Home()),
+                                          );
                                       } else {
                                         AuthServices.signupUser(
                                             email, password, fullname, context);

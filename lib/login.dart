@@ -1,6 +1,7 @@
 import 'dart:core';
 import 'package:flutter/material.dart';
 import '/services/authFunctions.dart';
+import 'homepage.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -125,7 +126,11 @@ class _LoginPageState extends State<LoginPage> {
                               width: 200,
                               child: ElevatedButton(
                                   style: ButtonStyle(
-                                    side: MaterialStateProperty.all<BorderSide>(BorderSide(color: Colors.white, width: 2)),
+                                      side:
+                                          MaterialStateProperty.all<BorderSide>(
+                                              BorderSide(
+                                                  color: Colors.white,
+                                                  width: 2)),
                                       foregroundColor:
                                           MaterialStateProperty.all<Color>(
                                               Color.fromARGB(
@@ -141,8 +146,12 @@ class _LoginPageState extends State<LoginPage> {
                                             await AuthServices.signinUser(
                                                 email, password, context);
                                         if (loggedin)
-                                          Navigator.pushNamed(
-                                              context, 'homepage');
+                                          Navigator.of(context).push(
+                                            MaterialPageRoute(
+                                                settings: RouteSettings(
+                                                    name: "/homepage"),
+                                                builder: (context) => Home()),
+                                          );
                                       } else {
                                         AuthServices.signupUser(
                                             email, password, fullname, context);
