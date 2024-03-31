@@ -141,7 +141,8 @@ https://github.com/Chayanika-Basak/Fimbria/assets/84329719/f5a4e361-3e66-45ca-aa
     
   </li>
   <li>Git clone the project into the directory of your choosing.
-    
+         
+    git clone https://github.com/Chayanika-Basak/Fimbria.git
     
   </li>
   <li>Edit the confidential.dart file and add your Gemini AI API, Geocoder API and Foursquare Places API keys
