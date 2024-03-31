@@ -3,6 +3,7 @@ import 'package:fimbria/gynae_near_me/gynae_main.dart';
 import 'package:flutter/material.dart';
 
 import '../connect/connect.dart';
+import '../pose_estimation/pose_main.dart';
 import '../postpartum_depression/main.dart';
 
 class CardItem {
@@ -44,7 +45,7 @@ List<CardItem> feature_items = [
       ],
       summary: "Start excercising to make your delivery easier.",
       name: "/pose_est",
-      page: PPDMain()),
+      page: Pose_Main()),
   CardItem(
       assetImage: 'images/breastfeeding.png',
       title: "Track Baby's Feeding Cycle",
