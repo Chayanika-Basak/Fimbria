@@ -1,4 +1,6 @@
 import 'dart:core';
+import 'package:fimbria/appointment_tracker/appointment_main.dart';
+import 'package:fimbria/diaperTracker/poopDetails.dart';
 import 'package:fimbria/feeding_tracker/feeding_main.dart';
 import 'package:fimbria/gynae_near_me/gynae_main.dart';
 import 'package:flutter/cupertino.dart';
@@ -47,19 +49,19 @@ class _HomeState extends State<Home> {
       "image": "images/doctor.png",
       "text": "Track Appointment",
       "name": '/doctor',
-      "page": GynaeMain()
+      "page": Appointment_Main()
     },
     {
       "image": "images/diaper.png",
       "text": "Track Diapers",
       "name": '/diaper',
-      "page": PPDMain()
+      "page": Diaper_Main()
     },
     {
       "image": "images/gynae.png",
       "text": "Gynae Near Me",
       "name": '/gynae',
-      "page": PPDMain()
+      "page": GynaeMain()
     },
     {
       "image": "images/holdBaby.png",
