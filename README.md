@@ -78,12 +78,20 @@ https://github.com/Chayanika-Basak/Fimbria/assets/84329719/0332ad80-727e-436c-a5
 
 
 
+https://github.com/Chayanika-Basak/Fimbria/assets/84329719/65bbb750-72b4-4895-a5bb-a470a4182f2d
+
+
+
 
       
   </li>
       <li><b>Diaper Tracker:</b> to track diaper changing time and details of the diaper; and save it for later.
 
       
+
+
+
+https://github.com/Chayanika-Basak/Fimbria/assets/84329719/ea192f0d-5c54-46af-8a3d-c7fcdf0d6370
 
 
 
