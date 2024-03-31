@@ -1,3 +1,5 @@
+import 'package:fimbria/appointment_tracker/appointment_main.dart';
+import 'package:fimbria/diaperTracker/poopDetails.dart';
 import 'package:fimbria/feeding_tracker/feeding_main.dart';
 import 'package:fimbria/gynae_near_me/gynae_main.dart';
 import 'package:flutter/material.dart';
@@ -70,7 +72,7 @@ List<CardItem> feature_items = [
       summary:
           "Keep track of appointment dates, prescriptions and lab reports.",
       name: "/doctor",
-      page: PPDMain()),
+      page: Appointment_Main()),
   CardItem(
       assetImage: 'images/diaper.png',
       title: "Track Diaper Changes",
@@ -82,7 +84,7 @@ List<CardItem> feature_items = [
       ],
       summary: "Avoid panics over last diaper change and their contents",
       name: "/diaper",
-      page: PPDMain()),
+      page: Diaper_Main()),
   CardItem(
       assetImage: 'images/gynae.png',
       title: "Get Gynaecologists Near You",
