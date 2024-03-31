@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388638055015",
+    "project_id": "devcation24",
+    "storage_bucket": "devcation24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388638055015:android:02dfa64e630ee0c27952c2",
+        "android_client_info": {
+          "package_name": "com.fimbria.fimbria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKXwm5N0Dfmu4a-pABVcnI4oANJS3u9iA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
